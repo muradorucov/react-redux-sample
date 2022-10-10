@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(255, 246, 121);
+}
+
+.App{
+    width: 300px;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 2px 4px 20px 1px rgb(45 45 45 / 13%);
+    border-radius: 7px;
+}
+
+.counter{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    padding: 8px 40px;
+    margin: 10px 15px;
+    background-color: blueviolet;
+    color: beige;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+    transition: .3s ease-in-out;
+}
+
+label{
+    width: 20px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    color: tomato;
+}
